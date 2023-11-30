@@ -1,47 +1,67 @@
+{% macro render_item(info) %}
+
+<div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+  <div class="count-box">
+    <i class="{{ 'bi' + ' ' + info['icon'] }}"></i>
+    <span data-purecounter-start="0" data-purecounter-end="{{ info['number'] }}" data-purecounter-duration="1" class="purecounter"></span>
+    <p><strong>{{info['fact_name']}}</strong> {{info['clarification']}}</p>
+  </div>
+</div>
+
+{% endmacro %}
+
+{% macro render(info) %}
+
 <!-- ======= Facts Section ======= -->
 <section id="facts" class="facts">
-    <div class="container">
+  <div class="container">
 
-      <div class="section-title">
-        <h2>Facts</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div>
+    <div class="section-title">
+      <h2>Facts</h2>
+      <p>{{ info['introduction'] }}</p>
+    </div>
 
-      <div class="row no-gutters">
+    <div class="row no-gutters">
 
-        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
-          <div class="count-box">
-            <i class="bi bi-emoji-smile"></i>
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p><strong>Happy Clients</strong> consequuntur quae</p>
-          </div>
-        </div>
+      {{ render_item(
+         {
+          'icon':'bi-emoji-smile',
+          'fact_name':'Happy Clients',
+          'clarification':'consequuntur quae',
+          'number':'232'
+         })
+      }}
 
-        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
-          <div class="count-box">
-            <i class="bi bi-journal-richtext"></i>
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-            <p><strong>Projects</strong> adipisci atque cum quia aut</p>
-          </div>
-        </div>
+      {{ render_item(
+         {
+          'icon':'bi-journal-richtext',
+          'fact_name':'Projects',
+          'clarification':'adipisci atque cum quia aut',
+          'number':'521'
+         })
+      }}
 
-        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
-          <div class="count-box">
-            <i class="bi bi-headset"></i>
-            <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-            <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
-          </div>
-        </div>
+      {{ render_item(
+         {
+          'icon':'bi-headset',
+          'fact_name':'Hours Of Support',
+          'clarification':'aut commodi quaerat',
+          'number':'1453'
+         })
+      }}
 
-        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-          <div class="count-box">
-            <i class="bi bi-people"></i>
-            <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-            <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
-          </div>
-        </div>
-
-      </div>
+      {{ render_item(
+        {
+         'icon':'bi-people',
+         'fact_name':'Hard Workers',
+         'clarification':'rerum asperiores dolor',
+         'number':'32'
+        })
+     }}
 
     </div>
-  </section><!-- End Facts Section -->
+
+  </div>
+</section><!-- End Facts Section -->
+
+{% endmacro %}
