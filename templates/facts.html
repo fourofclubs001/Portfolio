@@ -23,41 +23,9 @@
 
     <div class="row no-gutters">
 
-      {{ render_item(
-         {
-          'icon':'bi-emoji-smile',
-          'fact_name':'Happy Clients',
-          'clarification':'consequuntur quae',
-          'number':'232'
-         })
-      }}
-
-      {{ render_item(
-         {
-          'icon':'bi-journal-richtext',
-          'fact_name':'Projects',
-          'clarification':'adipisci atque cum quia aut',
-          'number':'521'
-         })
-      }}
-
-      {{ render_item(
-         {
-          'icon':'bi-headset',
-          'fact_name':'Hours Of Support',
-          'clarification':'aut commodi quaerat',
-          'number':'1453'
-         })
-      }}
-
-      {{ render_item(
-        {
-         'icon':'bi-people',
-         'fact_name':'Hard Workers',
-         'clarification':'rerum asperiores dolor',
-         'number':'32'
-        })
-     }}
+      {% for item in info['items'] %}
+        {{ render_item(item) }}
+      {% endfor %}
 
     </div>
 
