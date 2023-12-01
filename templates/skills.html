@@ -24,21 +24,17 @@
 
         <div class="col-lg-6" data-aos="fade-up">
 
-          {{ render_progress({'name':'HTML', 'value':'100'}) }}
-
-          {{ render_progress({'name':'CSS', 'value':'90'}) }}
-
-          {{ render_progress({'name':'JavaScript', 'value':'75'}) }}
+        {% for item in info['items_column_left'] %}
+          {{ render_progress(item) }}
+        {% endfor %}
 
         </div>
 
         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 
-          {{ render_progress({'name':'PHP', 'value':'80'}) }}
-
-          {{ render_progress({'name':'WordPress/CMS', 'value':'90'}) }}
-
-          {{ render_progress({'name':'Photoshop', 'value':'55'}) }}
+        {% for item in info['items_column_right'] %}
+          {{ render_progress(item) }}
+        {% endfor %}
 
         </div>
 
