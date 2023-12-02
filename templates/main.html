@@ -5,6 +5,7 @@
 {% import 'portfolio.html' as portfolio %}
 {% import 'services.html' as services %}
 {% import 'testimonials.html' as testimonials %}
+{% import 'contact.html' as contact %}
 
 <main id="main">
 
@@ -308,6 +309,13 @@
       }) 
    }}
   
-    {% include 'contact.html' %}
+    {{ contact.render(
+      {
+         'introduction':'Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.',
+         'location': 'A108 Adam Street, New York, NY 535022',
+         'email': 'info@example.com',
+         'phone_number': '+1 5589 55488 55s'
+      }) 
+   }}
   
   </main><!-- End #main -->
