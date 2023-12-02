@@ -39,93 +39,9 @@
 
     <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-      {{ render_item(
-        {
-          'image_path':'../static/img/portfolio/portfolio-1.jpg',
-          'is_app': True,
-          'title': 'App 1'
-        }) 
-      }}
-
-      {{ render_item(
-        {
-        'is_web': True,
-        'is_app': False,
-        'is_card': False,
-        'image_path': '../static/img/portfolio/portfolio-2.jpg',
-        'title': 'Web 3',
-        }) 
-      }}
-
-    {{ render_item(
-      {
-        'is_web': False,
-        'is_app': True,
-        'is_card': False,
-        'image_path': '../static/img/portfolio/portfolio-3.jpg',
-        'title': 'App 2',
-      }) 
-    }}
-
-    {{ render_item(
-      {
-        'is_web': False,
-        'is_app': False,
-        'is_card': True,
-        'image_path': '../static/img/portfolio/portfolio-4.jpg',
-        'title': 'Card 2',
-      }) 
-    }}
-
-    {{ render_item(
-      {
-        'is_web': True,
-        'is_app': False,
-        'is_card': False,
-        'image_path': '../static/img/portfolio/portfolio-5.jpg',
-        'title': 'Web 2',
-      }) 
-    }}
-
-    {{ render_item(
-      {
-        'is_web': False,
-        'is_app': True,
-        'is_card': False,
-        'image_path': '../static/img/portfolio/portfolio-6.jpg',
-        'title': 'App 3',
-      }) 
-    }}
-
-    {{ render_item(
-      {
-        'is_web': False,
-        'is_app': False,
-        'is_card': True,
-        'image_path': '../static/img/portfolio/portfolio-7.jpg',
-        'title': 'Card 1',
-      }) 
-    }}
-
-    {{ render_item(
-      {
-        'is_web': False,
-        'is_app': False,
-        'is_card': True,
-        'image_path': '../static/img/portfolio/portfolio-8.jpg',
-        'title': 'Card 3',
-      }) 
-    }}
-
-    {{ render_item(
-      {
-        'is_web': True,
-        'is_app': False,
-        'is_card': False,
-        'image_path': '../static/img/portfolio/portfolio-9.jpg',
-        'title': 'Web 3',
-      }) 
-    }}
+      {% for item in info['items'] %}
+        {{ render_item(item) }}
+      {% endfor %}
 
     </div>
 
