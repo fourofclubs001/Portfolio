@@ -1,5 +1,6 @@
 {% import 'main.html' as main %}
 {% import 'header.html' as header %}
+{% import 'hero.html' as hero %}
 {% extends 'base.html' %}
 
 {% block title %}Lucas Vitali Portfolio{% endblock %}
@@ -10,7 +11,7 @@
 
 {{ header.render(info) }}
 
-{% include 'hero.html' %}
+{{ hero.render(info) }}
 
 {{ main.render(info) }}
 
