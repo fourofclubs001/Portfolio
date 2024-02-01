@@ -37,24 +37,24 @@
       </div>
 
       <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+        <form action="/" method="post" role="form" class="php-email-form">
           <div class="row">
             <div class="form-group col-md-6">
               <label for="name">Your Name</label>
-              <input type="text" name="name" class="form-control" id="name" required>
+              {{ info['form'].name() }}
             </div>
             <div class="form-group col-md-6">
               <label for="name">Your Email</label>
-              <input type="email" class="form-control" name="email" id="email" required>
+              {{ info['form'].email() }}
             </div>
           </div>
           <div class="form-group">
             <label for="name">Subject</label>
-            <input type="text" class="form-control" name="subject" id="subject" required>
+            {{ info['form'].subject() }}
           </div>
           <div class="form-group">
             <label for="name">Message</label>
-            <textarea class="form-control" name="message" rows="10" required></textarea>
+            {{ info['form'].message() }}
           </div>
           <div class="my-3">
             <div class="loading">Loading</div>
