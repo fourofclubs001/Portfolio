@@ -25,7 +25,7 @@ class ContactForm(FlaskForm):
 
 	message_atributtes = {
 		"class":"form-control",
-		"rows":"10"
+		"rows":"14"
 	}
 
 	name = StringField('Name', validators=[InputRequired()],
