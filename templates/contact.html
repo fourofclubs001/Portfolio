@@ -1,4 +1,4 @@
-{% macro render(info) %}
+{% macro render(info, form) %}
 
 <!-- ======= Contact Section ======= -->
 <section id="contact" class="contact">
@@ -37,27 +37,27 @@
       </div>
 
       <div class="col-lg-7 mt-5 mt-lg-0">
-        <form action="/" method="post" role="form" class = "info">
+        <form action="/" method="POST" role="form" class = "info">
           <div class="row">
             <div class="form-group col-md-6">
               <label for="name">Your Name</label>
-              {{ info['form'].name() }}
+              {{ form.name() }}
             </div>
             <div class="form-group col-md-6">
               <label for="name">Your Email</label>
-              {{ info['form'].email() }}
+              {{ form.email() }}
             </div>
           </div>
           <div class="form-group mt-3">
             <label for="name">Subject</label>
-            {{ info['form'].subject() }}
+            {{ form.subject() }}
           </div>
           <div class="form-group mt-3">
             <label for="name">Message</label>
-            {{ info['form'].message() }}
+            {{ form.message() }}
           </div>
           <div class = "form-group text-center">
-            <button type="submit" class = "btn btn-primary mt-3">Send Message</button>
+            {{ form.submit() }}
           </div>
         </form>
       </div>

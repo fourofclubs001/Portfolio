@@ -1,5 +1,5 @@
 from flask_wtf import FlaskForm 
-from wtforms import StringField, EmailField, TextAreaField
+from wtforms import StringField, EmailField, TextAreaField, SubmitField
 from wtforms.validators import InputRequired 
 from werkzeug.security import generate_password_hash 
 
@@ -28,6 +28,11 @@ class ContactForm(FlaskForm):
 		"rows":"14"
 	}
 
+	submit_atributtes = {
+		"type":"submit",
+		"class":"btn btn-primary mt-3"
+	}
+
 	name = StringField('Name', validators=[InputRequired()],
 						render_kw = name_atributtes)
 	email = EmailField('Email', validators=[InputRequired()],
@@ -36,3 +41,5 @@ class ContactForm(FlaskForm):
 					       render_kw = subject_atributtes)
 	message = TextAreaField('Message', validators=[InputRequired()],
 						 	render_kw = message_atributtes)
+	submit = SubmitField('Submit',
+					  	 render_kw = submit_atributtes)
