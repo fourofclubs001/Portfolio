@@ -20,7 +20,7 @@ def index():
     contactForm = ContactForm()
     info["contact"]["form"] = contactForm
 
-    if contactForm.is_submitted():
+    if contactForm.validate_on_submit():
 
         name = contactForm.name
         email = contactForm.email
