@@ -7,7 +7,7 @@
 {% import 'testimonials.html' as testimonials %}
 {% import 'contact.html' as contact %}
 
-{% macro render(info, form) %}
+{% macro render(info) %}
 
 <main id="main">
 
@@ -25,7 +25,7 @@
 
    {{ testimonials.render(info['testimonials']) }}
 
-   {{ contact.render(info['contact'], form) }}
+   {{ contact.render(info['contact']) }}
 
 </main><!-- End #main -->
 

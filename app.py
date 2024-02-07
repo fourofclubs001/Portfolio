@@ -29,7 +29,7 @@ def index():
 
         return render_template("contact_form_response.html")
 
-    return render_template("index.html", info = info, contactForm = contactForm)
+    return render_template("index.html", info = info)
 
 if __name__ == "__main__":
 
