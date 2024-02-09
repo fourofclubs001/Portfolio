@@ -1,12 +1,13 @@
 from flask import Flask, render_template, request, redirect, url_for
 from modules.ContactForm import ContactForm
+import secrets
 import json
 import os
 
 path = os.path.dirname(os.path.abspath(__file__))
 
 app = Flask(__name__, template_folder = "templates")
-app.config['SECRET_KEY'] = 'secretkey'
+app.config['SECRET_KEY'] = secrets.token_hex(32)
 
 info = {}
 info_path = os.path.join(path, "info.json")
