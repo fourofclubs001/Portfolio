@@ -1,3 +1,6 @@
+{% import 'contact_info.html' as contact_info %}
+{% import 'contact_form.html' as contact_form %}
+
 {% macro render(info) %}
 
 <!-- ======= Contact Section ======= -->
@@ -12,55 +15,11 @@
     <div class="row" data-aos="fade-in">
 
       <div class="col-lg-5 d-flex align-items-stretch">
-        <div class="info">
-          <div class="address">
-            <i class="bi bi-geo-alt"></i>
-            <h4>Location:</h4>
-            <p>{{ info['location'] }}</p>
-          </div>
-
-          <div class="email">
-            <i class="bi bi-envelope"></i>
-            <h4>Email:</h4>
-            <p>{{ info['email'] }}</p>
-          </div>
-
-          <div class="phone">
-            <i class="bi bi-phone"></i>
-            <h4>Call:</h4>
-            <p>{{ info['phone_number'] }}</p>
-          </div>
-
-          <iframe src="{{ info['google_maps_shareable_link'] }}" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
-        </div>
-
+        {{ contact_info.render(info["info"]) }}
       </div>
 
       <div class="col-lg-7 mt-5 mt-lg-0">
-        <form action="/" method="POST" role="form" class = "info">
-          {{ info["form"].csrf_token() }}
-          <div class="row">
-            <div class="form-group col-md-6">
-              <label for="name">Your Name</label>
-              {{ info["form"].name() }}
-            </div>
-            <div class="form-group col-md-6">
-              <label for="name">Your Email</label>
-              {{ info["form"].email() }}
-            </div>
-          </div>
-          <div class="form-group mt-3">
-            <label for="name">Subject</label>
-            {{ info["form"].subject() }}
-          </div>
-          <div class="form-group mt-3">
-            <label for="name">Message</label>
-            {{ info["form"].message() }}
-          </div>
-          <div class = "form-group text-center">
-            {{ info["form"].submit() }}
-          </div>
-        </form>
+        {{ contact_form.render(info["form"]) }}
       </div>
     </div>
   </div>
