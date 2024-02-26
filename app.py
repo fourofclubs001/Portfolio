@@ -10,6 +10,8 @@ path = os.path.dirname(os.path.abspath(__file__))
 app = Flask(__name__, template_folder = "templates")
 app.config['SECRET_KEY'] = secrets.token_hex(32)
 
+email_api_key = os.environ.get('MAILGUN_API_KEY')
+
 info = {}
 info_path = os.path.join(path, "info.json")
 
@@ -33,7 +35,7 @@ def index():
 
         response = requests.post(
 		"https://api.mailgun.net/v3/sandbox4f5311015adf4863ba3ea4f0ade788be.mailgun.org/messages",
-		auth=("api", "dc786b5bb50ca2f1402996747169b295-8c90f339-6f386df1"),
+		auth=("api", email_api_key),
 		data={"from": "postmaster@sandbox4f5311015adf4863ba3ea4f0ade788be.mailgun.org",
 			"to": ["lucasvitali001@gmail.com"],
 			"subject": subject,
