@@ -210,7 +210,7 @@
     },
     "portfolio":
     {
-        "introduction":"Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.",
+        "introduction":"These are some project that I develop",
         "items":[
             {
                 "is_web": false,
@@ -351,13 +351,13 @@
     },
     "contact":
     {
-        "introduction":"Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.",
+        "introduction":"",
         "info":
         {
-            "location": "A108 Adam Street, New York, NY 535022",
-            "email": "info@example.com",
-            "phone_number": "+1 5589 55488 55s",
-            "google_maps_shareable_link":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+            "location": "Palermo, Buenos Aires City, Argentina",
+            "email": "lucasvitali001@gmail.com",
+            "phone_number": "+54 1166874868",
+            "google_maps_shareable_link":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6569.194796038734!2d-58.412279382541406!3d-34.589052300000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca83b8eb1141%3A0xba57a3a8d3675d34!2sAv.%20Cnel.%20D%C3%ADaz%20%26%20Av.%20Sta.%20Fe%2C%20C1425%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1709661792069!5m2!1sen!2sar"
         }
     }
 }
