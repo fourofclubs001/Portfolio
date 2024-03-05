@@ -1,26 +1,26 @@
 {
     "header":
     {
-        "name": "Alex Smith"
+        "name": "Lucas Vitali"
     },
     "hero":
     {
-        "name": "Alex Smith",
-        "profession": "Designer, Developer, Freelancer, Photographer"
+        "name": "Lucas Vitali",
+        "profession": "Programmer, Developer, Science Communicator"
     },
     "about":
     {
-        "introduction": "Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.",
-        "profession":"UI/UX Designer & Web Developer.",
+        "introduction": "I'm Lucas Vitali, a senior student at the University of Buenos Aires (UBA), in Buenos Aires City, Argentina.",
+        "profession":"Machine Learning Programmer",
         "first_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "second_description":"Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.",
-        "birthday":"1 May 1995",
-        "website": "www.example.com",
-        "phone_number": "+123 456 7890",
-        "city": "New York, USA",
-        "age": "30",
-        "degree": "Master",
-        "email": "email@example.com",
+        "birthday":"12 Febraury 2000",
+        "website": "https://portfolio-mpjx.onrender.com",
+        "phone_number": "1166874868",
+        "city": "Buenos Aires City, Argentina",
+        "age": "24",
+        "degree": "undergraduate",
+        "email": "lucasvitali001@gmail.com",
         "freelance": "Available"
     },
     "facts":
@@ -56,23 +56,27 @@
     },
     "skills":
     {
-    "introduction":"Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.",
+    "introduction":"After working on many project since my High School until now, I consider I manage this technologies with these level of expertise:",
     "items_column_left":
         [
-            {"name":"HTML", "value":"100"},
-            {"name":"CSS", "value":"90"},
-            {"name":"JavaScript", "value":"75"}
+            {"name":"Python", "value":"90"},
+            {"name":"C++", "value":"90"},
+            {"name":"C#", "value":"75"},
+            {"name":"Linux", "value":"80"},
+            {"name":"Numpy", "value":"90"}
         ],
     "items_column_right":
         [
-            {"name":"PHP", "value":"80"},
-            {"name":"WordPress/CMS", "value":"90"},
-            {"name":"Photoshop", "value":"55"}
+            {"name":"Docker", "value":"75"},
+            {"name":"Flask", "value":"60"},
+            {"name":"Jupyter Notebooks", "value":"90"},
+            {"name":"OpenCV", "value":"90"},
+            {"name":"Matplotlib", "value":"80"}
         ]
     },
     "resume":
     {
-        "introduction":"Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.",
+        "introduction":"I'm focusing my career on getting 6 years long computer science degree at UBA, gaining experience with machine learning and artificial inteligence technology, and also creating scientific content for social media",
         "Sumary":
         {
             "title":"Sumary",
@@ -99,19 +103,43 @@
             "items":
             [
                 {
-                "title":"Master of Fine Arts & Graphic Design",
-                "from": "2015",
-                "to": "2016",
-                "detail":"Rochester Institute of Technology, Rochester, NY",
-                "description":"Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend",
+                "title":"Computer Science Degree",
+                "from": "2019",
+                "to": "- Present",
+                "detail":"Buenos Aires University (UBA), Buenos Aires City",
+                "description":"",
                 "sub_items":[]
                 },
                 {
-                "title":"Bachelor of Fine Arts & Graphic Design",
-                "from": "2010",
-                "to": "2014",
-                "detail":"Rochester Institute of Technology, Rochester, NY",
-                "description":"Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila",
+                "title":"Diploma in science communication on social media",
+                "from": "2020",
+                "to": "",
+                "detail":"Buenos Aires University (UBA), Buenos Aires City",
+                "description":"A full semeter course for learning story telling techniques, social media use and video editing for science communication",
+                "sub_items":[]
+                },
+                {
+                "title":"Exactas Programa II",
+                "from": "2020",
+                "to": "",
+                "detail":"Buenos Aires University (UBA), Buenos Aires City",
+                "description":"Two weeks summer course for learning data analysis and data mining basics",
+                "sub_items":[]
+                },
+                {
+                "title":"Exactas Programa",
+                "from": "2020",
+                "to": "",
+                "detail":"Buenos Aires University (UBA), Buenos Aires City",
+                "description":"Two weeks summer course for learning problem solving with python",
+                "sub_items":[]
+                },
+                {
+                "title":"High School Diploma on Electronics",
+                "from": "2013",
+                "to": "- 2018",
+                "detail":"Escuela Tecnica Otto Krause",
+                "description":"High School degree strongly orientated on electronics",
                 "sub_items":[]
                 }
             ]
@@ -122,31 +150,59 @@
             "items":
             [
                 {
-                "title":"Senior graphic design specialist",
-                "from": "2019",
-                "to": "Present",
-                "detail":"Experion, New York, NY",
-                "description":"",
+                "title":"AI Software Engineer",
+                "from": "2023",
+                "to": "- Present",
+                "detail":"Zowl Labs, Buenos Aires City, Argentina",
+                "description":"Develop custom AI models and their sorrounding enviorment for industry applications",
                 "sub_items":
                 [
-                    "Lead in the design, development, and implementation of the graphic, layout, and production communication materials",
-                    "Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.",
-                    "Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design",
-                    "Oversee the efficient use of production project budgets ranging from $2,000 - $25,000"
+                    "Program and train AI models with python tensor flow, using jupyter notebooks",
+                    "Design easy to use interfaces on C++ and C#",
+                    "Deploy AI services and databases using docker and docker compose",
+                    "Use scrum framework for team organization",
+                    "Lead on the software arquitecture design and implementation for robust, reusable and flexible software"
                 ]
                 },
                 {
-                "title":"Graphic design specialist",
-                "from": "2017",
-                "to": "2018",
-                "detail":"Stepping Stone Advertising, New York, NY",
+                "title":"Computer Science communicator",
+                "from": "2023",
+                "to": "- Preset",
+                "detail":"Buenos Aires University, Buenos Aires City, Argentina",
+                "description":"Science Communication activities mostly for High School students",
+                "sub_items":
+                    [
+                        "Presentations at High Schools about computer science and the computer science degree at UBA",
+                        "Tour around the campus for High School student",
+                        "Assistance at workshops given by faculty members",
+                        "Create demostrations for science communication events"
+                    ]
+                },
+                {
+                "title":"Assistant Profesor",
+                "from": "2021",
+                "to": "- 2022",
+                "detail":"Buenos Aires University, Buenos Aires City, Argentina",
+                "description":"Algorithm and Data Structures I and II",
+                "sub_items":
+                    [
+                        "Problem and solution presentations",
+                        "Program explanation and demostration",
+                        "Exam qualification",
+                        "Final project qualification"
+                    ]
+                },
+                {
+                "title":"Web Developer Intership at Lagash",
+                "from": "2019",
+                "to": "",
+                "detail":"Lagash, Buenos Aires City, Argentina",
                 "description":"",
                 "sub_items":
                     [
-                        "Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).",
-                        "Managed up to 5 projects or tasks at a given time while under pressure",
-                        "Recommended and consulted with clients on the most appropriate graphic design",
-                        "Created 4+ design presentations and proposals a month for clients and account managers"
+                        "Use React framework",
+                        "Use MongoDB database",
+                        "Use .NET framework"
                     ]
                 }
             ]
