@@ -279,17 +279,17 @@
     },
     "services":
     {
-        "introduction":"Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.",
+        "introduction":"Taking into account my background education and work experience I can offer the following services",
         "items":[
             {
                 "icon":"bi-briefcase",
-                "title": "Lorem Ipsum",
-                "description": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
+                "title": "Python, C and C++ programming",
+                "description": "create and improve programming projects"
             },
             {
                 "icon":"bi-card-checklist",
-                "title": "Dolor Sitema",
-                "description": "Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata"
+                "title": "Programming code refactor",
+                "description": "Improve programming project by "
             },
             {
                 "icon":"bi-bar-chart",
