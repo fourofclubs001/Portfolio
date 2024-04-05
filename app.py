@@ -16,6 +16,10 @@ info_path = os.path.join(path, "info.json")
 with open(info_path, 'r') as info_file:
     info = json.load(info_file)
 
+@app.route('/portfolio-details.html')
+def portfolio_details():
+    return render_template('portfolio-details.html', info = info)
+
 @app.route("/", methods = ["GET", "POST"])
 def index():
 
