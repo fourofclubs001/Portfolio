@@ -1,363 +1,369 @@
 {
     "header":
     {
-        "name": "Lucas Vitali"
+        "name": "Lucas Vitali",
+        "twitter": "https://twitter.com/unpibedecompu",
+        "instagram": "https://www.instagram.com/unpibedecompu/",
+        "linkedIn": "https://www.linkedin.com/in/lucas-vitali-a4b503199/"
     },
     "hero":
     {
         "name": "Lucas Vitali",
         "profession": "Programmer, Developer, Science Communicator"
     },
-    "about":
+    "main":
     {
-        "introduction": "I'm Lucas Vitali, a senior student at the University of Buenos Aires (UBA), in Buenos Aires City, Argentina.",
-        "profession":"Machine Learning Programmer",
-        "first_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "second_description":"Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.",
-        "birthday":"12 Febraury 2000",
-        "website": "https://portfolio-mpjx.onrender.com",
-        "phone_number": "1166874868",
-        "city": "Buenos Aires City, Argentina",
-        "age": "24",
-        "degree": "undergraduate",
-        "email": "lucasvitali001@gmail.com",
-        "freelance": "Available"
-    },
-    "facts":
-    {
-        "introduction":"Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.",
-        "items": 
-        [
-            {
-                "icon":"bi-emoji-smile",
-                "fact_name":"Happy Clients",
-                "clarification":"consequuntur quae",
-                "number":"232"
-            },
-            {
-                "icon":"bi-journal-richtext",
-                "fact_name":"Projects",
-                "clarification":"adipisci atque cum quia aut",
-                "number":"521"
-            },
-            {
-                "icon":"bi-headset",
-                "fact_name":"Hours Of Support",
-                "clarification":"aut commodi quaerat",
-                "number":"1453"
-            },
-            {
-                "icon":"bi-people",
-                "fact_name":"Hard Workers",
-                "clarification":"rerum asperiores dolor",
-                "number":"32"
-            }
-        ]
-    },
-    "skills":
-    {
-    "introduction":"After working on many project since my High School until now, I consider I manage this technologies with these level of expertise:",
-    "items_column_left":
-        [
-            {"name":"Python", "value":"90"},
-            {"name":"C++", "value":"90"},
-            {"name":"C#", "value":"75"},
-            {"name":"Linux", "value":"80"},
-            {"name":"Numpy", "value":"90"}
-        ],
-    "items_column_right":
-        [
-            {"name":"Docker", "value":"75"},
-            {"name":"Flask", "value":"60"},
-            {"name":"Jupyter Notebooks", "value":"90"},
-            {"name":"OpenCV", "value":"90"},
-            {"name":"Matplotlib", "value":"80"}
-        ]
-    },
-    "resume":
-    {
-        "introduction":"I'm focusing my career on getting 6 years long computer science degree at UBA, gaining experience with machine learning and artificial inteligence technology, and also creating scientific content for social media",
-        "Sumary":
+        "about":
         {
-            "title":"Sumary",
-            "items":
-            [
-                {
-                "title":"Alex Smith",
-                "from": "",
-                "to": "",
-                "detail":"Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.",
-                "description":"",
-                "sub_items":
-                [
-                    "Portland par 127,Orlando, FL",
-                    "(123) 456-7891",
-                    "alice.barkley@example.com"
-                ]
-                }
-            ]
-        },
-        "Education":
-        {
-            "title":"Education",
-            "items":
-            [
-                {
-                "title":"Computer Science Degree",
-                "from": "2019",
-                "to": "- Present",
-                "detail":"Buenos Aires University (UBA), Buenos Aires City",
-                "description":"",
-                "sub_items":[]
-                },
-                {
-                "title":"Diploma in science communication on social media",
-                "from": "2020",
-                "to": "",
-                "detail":"Buenos Aires University (UBA), Buenos Aires City",
-                "description":"A full semeter course for learning story telling techniques, social media use and video editing for science communication",
-                "sub_items":[]
-                },
-                {
-                "title":"Exactas Programa II",
-                "from": "2020",
-                "to": "",
-                "detail":"Buenos Aires University (UBA), Buenos Aires City",
-                "description":"Two weeks summer course for learning data analysis and data mining basics",
-                "sub_items":[]
-                },
-                {
-                "title":"Exactas Programa",
-                "from": "2020",
-                "to": "",
-                "detail":"Buenos Aires University (UBA), Buenos Aires City",
-                "description":"Two weeks summer course for learning problem solving with python",
-                "sub_items":[]
-                },
-                {
-                "title":"High School Diploma on Electronics",
-                "from": "2013",
-                "to": "- 2018",
-                "detail":"Escuela Tecnica Otto Krause",
-                "description":"High School degree strongly orientated on electronics",
-                "sub_items":[]
-                }
-            ]
-        },
-        "Profesional Experience":
-        {
-            "title":"Professional Experience",
-            "items":
-            [
-                {
-                "title":"AI Software Engineer",
-                "from": "2023",
-                "to": "- Present",
-                "detail":"Zowl Labs, Buenos Aires City, Argentina",
-                "description":"Develop custom AI models and their sorrounding enviorment for industry applications",
-                "sub_items":
-                [
-                    "Program and train AI models with python tensor flow, using jupyter notebooks",
-                    "Design easy to use interfaces on C++ and C#",
-                    "Deploy AI services and databases using docker and docker compose",
-                    "Use scrum framework for team organization",
-                    "Lead on the software arquitecture design and implementation for robust, reusable and flexible software"
-                ]
-                },
-                {
-                "title":"Computer Science communicator",
-                "from": "2023",
-                "to": "- Preset",
-                "detail":"Buenos Aires University, Buenos Aires City, Argentina",
-                "description":"Science Communication activities mostly for High School students",
-                "sub_items":
-                    [
-                        "Presentations at High Schools about computer science and the computer science degree at UBA",
-                        "Tour around the campus for High School student",
-                        "Assistance at workshops given by faculty members",
-                        "Create demostrations for science communication events"
-                    ]
-                },
-                {
-                "title":"Assistant Profesor",
-                "from": "2021",
-                "to": "- 2022",
-                "detail":"Buenos Aires University, Buenos Aires City, Argentina",
-                "description":"Algorithm and Data Structures I and II",
-                "sub_items":
-                    [
-                        "Problem and solution presentations",
-                        "Program explanation and demostration",
-                        "Exam qualification",
-                        "Final project qualification"
-                    ]
-                },
-                {
-                "title":"Web Developer Intership at Lagash",
-                "from": "2019",
-                "to": "",
-                "detail":"Lagash, Buenos Aires City, Argentina",
-                "description":"",
-                "sub_items":
-                    [
-                        "Use React framework",
-                        "Use MongoDB database",
-                        "Use .NET framework"
-                    ]
-                }
-            ]
-        }
-    },
-    "portfolio":
-    {
-        "introduction":"These are some project that I develop",
-        "items":[
-            {
-                "is_web": false,
-                "is_app": true,
-                "is_card": false,
-                "image_path":"../static/img/portfolio/portfolio-1.jpg",
-                "title": "App 1"
-            },
-            {
-                "is_web": true,
-                "is_app": false,
-                "is_card": false,
-                "image_path": "../static/img/portfolio/portfolio-2.jpg",
-                "title": "Web 3"
-            },
-            {
-                "is_web": false,
-                "is_app": true,
-                "is_card": false,
-                "image_path": "../static/img/portfolio/portfolio-3.jpg",
-                "title": "App 2"
-            },
-            {
-                "is_web": false,
-                "is_app": false,
-                "is_card": true,
-                "image_path": "../static/img/portfolio/portfolio-4.jpg",
-                "title": "Card 2"
-            },
-            {
-                "is_web": true,
-                "is_app": false,
-                "is_card": false,
-                "image_path": "../static/img/portfolio/portfolio-5.jpg",
-                "title": "Web 2"
-            },
-            {
-                "is_web": false,
-                "is_app": true,
-                "is_card": false,
-                "image_path": "../static/img/portfolio/portfolio-6.jpg",
-                "title": "App 3"
-            },
-            {
-                "is_web": false,
-                "is_app": false,
-                "is_card": true,
-                "image_path": "../static/img/portfolio/portfolio-7.jpg",
-                "title": "Card 1"
-            },
-            {
-                "is_web": false,
-                "is_app": false,
-                "is_card": true,
-                "image_path": "../static/img/portfolio/portfolio-8.jpg",
-                "title": "Card 3"
-            },
-            {
-                "is_web": true,
-                "is_app": false,
-                "is_card": false,
-                "image_path": "../static/img/portfolio/portfolio-9.jpg",
-                "title": "Web 3"
-            }
-        ]
-    },
-    "services":
-    {
-        "introduction":"Taking into account my background education and work experience I can offer the following services",
-        "items":[
-            {
-                "icon":"bi-briefcase",
-                "title": "Python, C and C++ programming",
-                "description": "create and improve programming projects"
-            },
-            {
-                "icon":"bi-card-checklist",
-                "title": "Programming code refactor",
-                "description": "Improve programming project by "
-            },
-            {
-                "icon":"bi-bar-chart",
-                "title": "Sed ut perspiciatis",
-                "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
-            },
-            {
-                "icon":"bi-binoculars",
-                "title": "Magni Dolores",
-                "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
-            },
-            {
-                "icon":"bi-brightness-high",
-                "title": "Nemo Enim",
-                "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque"
-            },
-            {
-                "icon":"bi-calendar4-week",
-                "title": "Eiusmod Tempor",
-                "description": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi"
-            }
-        ]
-    },
-    "testimonials":
-    {
-        "introduction": "Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.",
-        "items":[
-            {
-                "testimony": "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
-                "profile_picture_path": "../static/img/testimonials/testimonials-1.jpg",
-                "full_name": "Saul Goodman",
-                "reference": "Ceo & Founder"
-            },
-            {
-                "testimony": "Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.",
-                "profile_picture_path": "../static/img/testimonials/testimonials-2.jpg",
-                "full_name": "Sara Wilsson",
-                "reference": "Designer"
-            },
-            {
-                "testimony": "Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.",
-                "profile_picture_path": "../static/img/testimonials/testimonials-3.jpg",
-                "full_name": "Jena Karlis",
-                "reference": "Store Owner"
-            },
-            {
-                "testimony": "Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.",
-                "profile_picture_path": "../static/img/testimonials/testimonials-4.jpg",
-                "full_name": "Matt Brandon",
-                "reference": "Freelancer"
-            },
-            {
-                "testimony": "Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.",
-                "profile_picture_path": "../static/img/testimonials/testimonials-5.jpg",
-                "full_name": "John Larson",
-                "reference": "Entrepreneur"
-            }
-        ]
-    },
-    "contact":
-    {
-        "introduction":"",
-        "info":
-        {
-            "location": "Palermo, Buenos Aires City, Argentina",
+            "introduction": "I'm Lucas Vitali, a senior student at the University of Buenos Aires (UBA), in Buenos Aires City, Argentina.",
+            "profession":"Machine Learning Programmer",
+            "first_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "second_description":"Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.",
+            "birthday":"12 Febraury 2000",
+            "website": "https://portfolio-mpjx.onrender.com",
+            "phone_number": "1166874868",
+            "city": "Buenos Aires City, Argentina",
+            "age": "24",
+            "degree": "undergraduate",
             "email": "lucasvitali001@gmail.com",
-            "phone_number": "+54 1166874868",
-            "google_maps_shareable_link":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6569.194796038734!2d-58.412279382541406!3d-34.589052300000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca83b8eb1141%3A0xba57a3a8d3675d34!2sAv.%20Cnel.%20D%C3%ADaz%20%26%20Av.%20Sta.%20Fe%2C%20C1425%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1709661792069!5m2!1sen!2sar"
+            "freelance": "Available"
+        },
+        "facts":
+        {
+            "introduction":"Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.",
+            "items": 
+            [
+                {
+                    "icon":"bi-emoji-smile",
+                    "fact_name":"Happy Clients",
+                    "clarification":"consequuntur quae",
+                    "number":"232"
+                },
+                {
+                    "icon":"bi-journal-richtext",
+                    "fact_name":"Projects",
+                    "clarification":"adipisci atque cum quia aut",
+                    "number":"521"
+                },
+                {
+                    "icon":"bi-headset",
+                    "fact_name":"Hours Of Support",
+                    "clarification":"aut commodi quaerat",
+                    "number":"1453"
+                },
+                {
+                    "icon":"bi-people",
+                    "fact_name":"Hard Workers",
+                    "clarification":"rerum asperiores dolor",
+                    "number":"32"
+                }
+            ]
+        },
+        "skills":
+        {
+        "introduction":"After working on many project since my High School until now, I consider I manage this technologies with these level of expertise:",
+        "items_column_left":
+            [
+                {"name":"Python", "value":"90"},
+                {"name":"C++", "value":"90"},
+                {"name":"C#", "value":"75"},
+                {"name":"Linux", "value":"80"},
+                {"name":"Numpy", "value":"90"}
+            ],
+        "items_column_right":
+            [
+                {"name":"Docker", "value":"75"},
+                {"name":"Flask", "value":"60"},
+                {"name":"Jupyter Notebooks", "value":"90"},
+                {"name":"OpenCV", "value":"90"},
+                {"name":"Matplotlib", "value":"80"}
+            ]
+        },
+        "resume":
+        {
+            "introduction":"I'm focusing my career on getting 6 years long computer science degree at UBA, gaining experience with machine learning and artificial inteligence technology, and also creating scientific content for social media",
+            "Sumary":
+            {
+                "title":"Sumary",
+                "items":
+                [
+                    {
+                    "title":"Alex Smith",
+                    "from": "",
+                    "to": "",
+                    "detail":"Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.",
+                    "description":"",
+                    "sub_items":
+                    [
+                        "Portland par 127,Orlando, FL",
+                        "(123) 456-7891",
+                        "alice.barkley@example.com"
+                    ]
+                    }
+                ]
+            },
+            "Education":
+            {
+                "title":"Education",
+                "items":
+                [
+                    {
+                    "title":"Computer Science Degree",
+                    "from": "2019",
+                    "to": "- Present",
+                    "detail":"Buenos Aires University (UBA), Buenos Aires City",
+                    "description":"",
+                    "sub_items":[]
+                    },
+                    {
+                    "title":"Diploma in science communication on social media",
+                    "from": "2020",
+                    "to": "",
+                    "detail":"Buenos Aires University (UBA), Buenos Aires City",
+                    "description":"A full semeter course for learning story telling techniques, social media use and video editing for science communication",
+                    "sub_items":[]
+                    },
+                    {
+                    "title":"Exactas Programa II",
+                    "from": "2020",
+                    "to": "",
+                    "detail":"Buenos Aires University (UBA), Buenos Aires City",
+                    "description":"Two weeks summer course for learning data analysis and data mining basics",
+                    "sub_items":[]
+                    },
+                    {
+                    "title":"Exactas Programa",
+                    "from": "2020",
+                    "to": "",
+                    "detail":"Buenos Aires University (UBA), Buenos Aires City",
+                    "description":"Two weeks summer course for learning problem solving with python",
+                    "sub_items":[]
+                    },
+                    {
+                    "title":"High School Diploma on Electronics",
+                    "from": "2013",
+                    "to": "- 2018",
+                    "detail":"Escuela Tecnica Otto Krause",
+                    "description":"High School degree strongly orientated on electronics",
+                    "sub_items":[]
+                    }
+                ]
+            },
+            "Profesional Experience":
+            {
+                "title":"Professional Experience",
+                "items":
+                [
+                    {
+                    "title":"AI Software Engineer",
+                    "from": "2023",
+                    "to": "- Present",
+                    "detail":"Zowl Labs, Buenos Aires City, Argentina",
+                    "description":"Develop custom AI models and their sorrounding enviorment for industry applications",
+                    "sub_items":
+                    [
+                        "Program and train AI models with python tensor flow, using jupyter notebooks",
+                        "Design easy to use interfaces on C++ and C#",
+                        "Deploy AI services and databases using docker and docker compose",
+                        "Use scrum framework for team organization",
+                        "Lead on the software arquitecture design and implementation for robust, reusable and flexible software"
+                    ]
+                    },
+                    {
+                    "title":"Computer Science communicator",
+                    "from": "2023",
+                    "to": "- Preset",
+                    "detail":"Buenos Aires University, Buenos Aires City, Argentina",
+                    "description":"Science Communication activities mostly for High School students",
+                    "sub_items":
+                        [
+                            "Presentations at High Schools about computer science and the computer science degree at UBA",
+                            "Tour around the campus for High School student",
+                            "Assistance at workshops given by faculty members",
+                            "Create demostrations for science communication events"
+                        ]
+                    },
+                    {
+                    "title":"Assistant Profesor",
+                    "from": "2021",
+                    "to": "- 2022",
+                    "detail":"Buenos Aires University, Buenos Aires City, Argentina",
+                    "description":"Algorithm and Data Structures I and II",
+                    "sub_items":
+                        [
+                            "Problem and solution presentations",
+                            "Program explanation and demostration",
+                            "Exam qualification",
+                            "Final project qualification"
+                        ]
+                    },
+                    {
+                    "title":"Web Developer Intership at Lagash",
+                    "from": "2019",
+                    "to": "",
+                    "detail":"Lagash, Buenos Aires City, Argentina",
+                    "description":"",
+                    "sub_items":
+                        [
+                            "Use React framework",
+                            "Use MongoDB database",
+                            "Use .NET framework"
+                        ]
+                    }
+                ]
+            }
+        },
+        "portfolio":
+        {
+            "introduction":"These are some project that I develop",
+            "items":[
+                {
+                    "is_web": false,
+                    "is_app": true,
+                    "is_card": false,
+                    "image_path":"../static/img/portfolio/portfolio-1.jpg",
+                    "title": "App 1"
+                },
+                {
+                    "is_web": true,
+                    "is_app": false,
+                    "is_card": false,
+                    "image_path": "../static/img/portfolio/portfolio-2.jpg",
+                    "title": "Web 3"
+                },
+                {
+                    "is_web": false,
+                    "is_app": true,
+                    "is_card": false,
+                    "image_path": "../static/img/portfolio/portfolio-3.jpg",
+                    "title": "App 2"
+                },
+                {
+                    "is_web": false,
+                    "is_app": false,
+                    "is_card": true,
+                    "image_path": "../static/img/portfolio/portfolio-4.jpg",
+                    "title": "Card 2"
+                },
+                {
+                    "is_web": true,
+                    "is_app": false,
+                    "is_card": false,
+                    "image_path": "../static/img/portfolio/portfolio-5.jpg",
+                    "title": "Web 2"
+                },
+                {
+                    "is_web": false,
+                    "is_app": true,
+                    "is_card": false,
+                    "image_path": "../static/img/portfolio/portfolio-6.jpg",
+                    "title": "App 3"
+                },
+                {
+                    "is_web": false,
+                    "is_app": false,
+                    "is_card": true,
+                    "image_path": "../static/img/portfolio/portfolio-7.jpg",
+                    "title": "Card 1"
+                },
+                {
+                    "is_web": false,
+                    "is_app": false,
+                    "is_card": true,
+                    "image_path": "../static/img/portfolio/portfolio-8.jpg",
+                    "title": "Card 3"
+                },
+                {
+                    "is_web": true,
+                    "is_app": false,
+                    "is_card": false,
+                    "image_path": "../static/img/portfolio/portfolio-9.jpg",
+                    "title": "Web 3"
+                }
+            ]
+        },
+        "services":
+        {
+            "introduction":"Taking into account my background education and work experience I can offer the following services",
+            "items":[
+                {
+                    "icon":"bi-briefcase",
+                    "title": "Python, C and C++ programming",
+                    "description": "create and improve programming projects"
+                },
+                {
+                    "icon":"bi-card-checklist",
+                    "title": "Programming code refactor",
+                    "description": "Improve programming project by "
+                },
+                {
+                    "icon":"bi-bar-chart",
+                    "title": "Sed ut perspiciatis",
+                    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+                },
+                {
+                    "icon":"bi-binoculars",
+                    "title": "Magni Dolores",
+                    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                },
+                {
+                    "icon":"bi-brightness-high",
+                    "title": "Nemo Enim",
+                    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque"
+                },
+                {
+                    "icon":"bi-calendar4-week",
+                    "title": "Eiusmod Tempor",
+                    "description": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi"
+                }
+            ]
+        },
+        "testimonials":
+        {
+            "introduction": "Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.",
+            "items":[
+                {
+                    "testimony": "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
+                    "profile_picture_path": "../static/img/testimonials/testimonials-1.jpg",
+                    "full_name": "Saul Goodman",
+                    "reference": "Ceo & Founder"
+                },
+                {
+                    "testimony": "Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.",
+                    "profile_picture_path": "../static/img/testimonials/testimonials-2.jpg",
+                    "full_name": "Sara Wilsson",
+                    "reference": "Designer"
+                },
+                {
+                    "testimony": "Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.",
+                    "profile_picture_path": "../static/img/testimonials/testimonials-3.jpg",
+                    "full_name": "Jena Karlis",
+                    "reference": "Store Owner"
+                },
+                {
+                    "testimony": "Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.",
+                    "profile_picture_path": "../static/img/testimonials/testimonials-4.jpg",
+                    "full_name": "Matt Brandon",
+                    "reference": "Freelancer"
+                },
+                {
+                    "testimony": "Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.",
+                    "profile_picture_path": "../static/img/testimonials/testimonials-5.jpg",
+                    "full_name": "John Larson",
+                    "reference": "Entrepreneur"
+                }
+            ]
+        },
+        "contact":
+        {
+            "introduction":"",
+            "info":
+            {
+                "location": "Palermo, Buenos Aires City, Argentina",
+                "email": "lucasvitali001@gmail.com",
+                "phone_number": "+54 1166874868",
+                "google_maps_shareable_link":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6569.194796038734!2d-58.412279382541406!3d-34.589052300000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca83b8eb1141%3A0xba57a3a8d3675d34!2sAv.%20Cnel.%20D%C3%ADaz%20%26%20Av.%20Sta.%20Fe%2C%20C1425%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1709661792069!5m2!1sen!2sar"
+            }
         }
     }
 }

@@ -9,11 +9,11 @@
 
 {% include 'nav_toggle_button.html' %}
 
-{{ header.render(info) }}
+{{ header.render(info['header']) }}
 
-{{ hero.render(info) }}
+{{ hero.render(info['hero']) }}
 
-{{ main.render(info) }}
+{{ main.render(info['main']) }}
 
 {% include 'back_to_top.html' %}
 
