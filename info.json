@@ -9,16 +9,16 @@
     "hero":
     {
         "name": "Lucas Vitali",
-        "profession": "Programmer, Developer, Science Communicator"
+        "profession": "Programmer, AI Developer, Science Communicator"
     },
     "main":
     {
         "about":
         {
             "introduction": "I'm Lucas Vitali, a senior student at the University of Buenos Aires (UBA), in Buenos Aires City, Argentina.",
-            "profession":"Machine Learning Programmer",
-            "first_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "second_description":"Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.",
+            "profession":"",
+            "first_description":"",
+            "second_description":"",
             "birthday":"12 Febraury 2000",
             "website": "https://portfolio-mpjx.onrender.com",
             "phone_number": "1166874868",
@@ -215,7 +215,7 @@
         },
         "portfolio":
         {
-            "introduction":"These are some project that I develop",
+            "introduction":"",
             "items":[
                 {
                     "is_web": false,
