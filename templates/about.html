@@ -29,6 +29,10 @@
             <ul>
               {{ render_item('Birthday', info['birthday']) }}
               {{ render_item('Website', info['website']) }}
+              <li>
+                <i class="bi bi-chevron-right"></i> <strong>'Website':</strong> 
+                                                    <a href = "{{info['website']}}">{{info['website']}}</a>
+              </li>
               {{ render_item('Phone', info['phone_number']) }}
               {{ render_item('City', info['city']) }}
             </ul>
