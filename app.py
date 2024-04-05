@@ -20,6 +20,30 @@ with open(info_path, 'r') as info_file:
 def portfolio_details():
     return render_template('portfolio-details.html', info = info)
 
+@app.route('/hero')
+def hero():
+    return redirect("/#hero")
+
+@app.route('/about')
+def about():
+    return redirect("/#about")
+
+@app.route('/resume')
+def resume():
+    return redirect("/#resume")
+
+@app.route('/portfolio')
+def portfolio():
+    return redirect("/#portfolio")
+
+@app.route('/services')
+def services():
+    return redirect("/#services")
+
+@app.route('/contact')
+def contact():
+    return redirect("/#contact")
+
 @app.route("/", methods = ["GET", "POST"])
 def index():
 
