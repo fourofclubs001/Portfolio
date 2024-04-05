@@ -1,5 +1,4 @@
 {% import 'main.html' as main %}
-{% import 'header.html' as header %}
 {% import 'hero.html' as hero %}
 {% import 'portfolio-details-template.html' as portfolio_details%}
 {% extends 'base.html' %}
@@ -7,10 +6,6 @@
 {% block title %}Lucas Vitali Portfolio{% endblock %}
 
 {% block content %}
-
-{% include 'nav_toggle_button.html' %}
-
-{{ header.render(info['header']) }}
 
 {{ portfolio_details.render(info['portfolio_details']) }}
 

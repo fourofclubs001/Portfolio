@@ -1,3 +1,5 @@
+{% import 'header.html' as header %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,6 +35,9 @@
 </head>
 
 <body>
+    {% include 'nav_toggle_button.html' %}
+    {{ header.render(info['header']) }}
+
     {% block content %}{% endblock %}
 
     <!-- Vendor JS Files -->
