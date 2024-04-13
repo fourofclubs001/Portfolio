@@ -218,103 +218,157 @@
             "introduction":"",
             "items":[
                 {
-                    "is_web": false,
-                    "is_app": true,
-                    "is_card": false,
+                    "title": "App 1",
+                    "category": "Application",
+                    "client": "Exactas",
+                    "date": "12 febrero 2024",
+                    "URL": "https://www.instagram.com/unpibedecompu/",
+                    "description_title": "Exactas application",
+                    "description": "application for exactas",
                     "images_path":[
                         "../static/img/portfolio/portfolio-1.jpg",
                         "../static/img/portfolio/portfolio-2.jpg",
                         "../static/img/portfolio/portfolio-3.jpg"
                     ],
-                    "title": "App 1"
+                    "is_web": false,
+                    "is_app": true,
+                    "is_card": false
                 },
                 {
-                    "is_web": true,
-                    "is_app": false,
-                    "is_card": false,
+                    "title": "Web 3",
+                    "category": "Application",
+                    "client": "Exactas",
+                    "date": "12 febrero 2024",
+                    "URL": "https://www.instagram.com/unpibedecompu/",
+                    "description_title": "Exactas application",
+                    "description": "application for exactas",
                     "images_path": [
                         "../static/img/portfolio/portfolio-2.jpg",
                         "../static/img/portfolio/portfolio-3.jpg",
                         "../static/img/portfolio/portfolio-4.jpg"
                     ],
-                    "title": "Web 3"
+                    "is_web": true,
+                    "is_app": false,
+                    "is_card": false
                 },
                 {
-                    "is_web": false,
-                    "is_app": true,
-                    "is_card": false,
+                    "title": "App 2",
+                    "category": "Application",
+                    "client": "Exactas",
+                    "date": "12 febrero 2024",
+                    "URL": "https://www.instagram.com/unpibedecompu/",
+                    "description_title": "Exactas application",
+                    "description": "application for exactas",
                     "images_path": [
                         "../static/img/portfolio/portfolio-3.jpg",
                         "../static/img/portfolio/portfolio-4.jpg",
                         "../static/img/portfolio/portfolio-5.jpg"
                     ],
-                    "title": "App 2"
+                    "is_web": false,
+                    "is_app": true,
+                    "is_card": false
                 },
                 {
-                    "is_web": false,
-                    "is_app": false,
-                    "is_card": true,
+                    "title": "Card 2",
+                    "category": "Application",
+                    "client": "Exactas",
+                    "date": "12 febrero 2024",
+                    "URL": "https://www.instagram.com/unpibedecompu/",
+                    "description_title": "Exactas application",
+                    "description": "application for exactas",
                     "images_path": [
                         "../static/img/portfolio/portfolio-4.jpg",
                         "../static/img/portfolio/portfolio-5.jpg",
                         "../static/img/portfolio/portfolio-6.jpg"
                     ],
-                    "title": "Card 2"
+                    "is_web": false,
+                    "is_app": false,
+                    "is_card": true
                 },
                 {
-                    "is_web": true,
-                    "is_app": false,
-                    "is_card": false,
+                    "title": "Web 2",
+                    "category": "Application",
+                    "client": "Exactas",
+                    "date": "12 febrero 2024",
+                    "URL": "https://www.instagram.com/unpibedecompu/",
+                    "description_title": "Exactas application",
+                    "description": "application for exactas",
                     "images_path": [
                         "../static/img/portfolio/portfolio-5.jpg",
                         "../static/img/portfolio/portfolio-6.jpg",
                         "../static/img/portfolio/portfolio-7.jpg"
                     ],
-                    "title": "Web 2"
+                    "is_web": true,
+                    "is_app": false,
+                    "is_card": false
                 },
                 {
-                    "is_web": false,
-                    "is_app": true,
-                    "is_card": false,
+                    "title": "App 3",
+                    "category": "Application",
+                    "client": "Exactas",
+                    "date": "12 febrero 2024",
+                    "URL": "https://www.instagram.com/unpibedecompu/",
+                    "description_title": "Exactas application",
+                    "description": "application for exactas",
                     "images_path": [
                         "../static/img/portfolio/portfolio-6.jpg",
                         "../static/img/portfolio/portfolio-7.jpg",
                         "../static/img/portfolio/portfolio-8.jpg"
                     ],
-                    "title": "App 3"
+                    "is_web": false,
+                    "is_app": true,
+                    "is_card": false
                 },
                 {
-                    "is_web": false,
-                    "is_app": false,
-                    "is_card": true,
+                    "title": "Card 1",
+                    "category": "Application",
+                    "client": "Exactas",
+                    "date": "12 febrero 2024",
+                    "URL": "https://www.instagram.com/unpibedecompu/",
+                    "description_title": "Exactas application",
+                    "description": "application for exactas",
                     "images_path": [
                         "../static/img/portfolio/portfolio-7.jpg",
                         "../static/img/portfolio/portfolio-8.jpg",
                         "../static/img/portfolio/portfolio-9.jpg"
                     ],
-                    "title": "Card 1"
-                },
-                {
                     "is_web": false,
                     "is_app": false,
-                    "is_card": true,
+                    "is_card": true
+                },
+                {
+                    "title": "Card 3",
+                    "category": "Application",
+                    "client": "Exactas",
+                    "date": "12 febrero 2024",
+                    "URL": "https://www.instagram.com/unpibedecompu/",
+                    "description_title": "Exactas application",
+                    "description": "application for exactas",
                     "images_path": [
                         "../static/img/portfolio/portfolio-8.jpg",
                         "../static/img/portfolio/portfolio-9.jpg",
                         "../static/img/portfolio/portfolio-1.jpg"
                     ],
-                    "title": "Card 3"
+                    "is_web": false,
+                    "is_app": false,
+                    "is_card": true
                 },
                 {
-                    "is_web": true,
-                    "is_app": false,
-                    "is_card": false,
+                    "title": "Web 3",
+                    "category": "Application",
+                    "client": "Exactas",
+                    "date": "12 febrero 2024",
+                    "URL": "https://www.instagram.com/unpibedecompu/",
+                    "description_title": "Exactas application",
+                    "description": "application for exactas",
                     "images_path": [
                         "../static/img/portfolio/portfolio-9.jpg",
                         "../static/img/portfolio/portfolio-1.jpg",
                         "../static/img/portfolio/portfolio-2.jpg"
                     ],
-                    "title": "Web 3"
+                    "is_web": true,
+                    "is_app": false,
+                    "is_card": false
                 }
             ]
         },
