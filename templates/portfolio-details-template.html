@@ -1,3 +1,11 @@
+{% macro render_carrousel_image(image_path) %}
+
+<div class="swiper-slide">
+  <img src="{{ image_path }}" alt="">
+</div>
+
+{% endmacro %}
+
 {% macro render(item_info)%}
 
 <main id="main">
@@ -10,7 +18,7 @@
           <h2>{{ item_info["title"] }}</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Portfoio Details</li>
+            <li>Portfolio Details</li>
           </ol>
         </div>
   
@@ -26,18 +34,10 @@
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
-  
-                <div class="swiper-slide">
-                  <img src="../static/img/portfolio/portfolio-details-1.jpg" alt="">
-                </div>
-  
-                <div class="swiper-slide">
-                  <img src="../static/img/portfolio/portfolio-details-2.jpg" alt="">
-                </div>
-  
-                <div class="swiper-slide">
-                  <img src="../static/img/portfolio/portfolio-details-3.jpg" alt="">
-                </div>
+
+                {% for image_path in item_info['images_path'] %}
+                  {{ render_carrousel_image(image_path) }}
+                {% endfor %}
   
               </div>
               <div class="swiper-pagination"></div>

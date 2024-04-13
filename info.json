@@ -221,63 +221,99 @@
                     "is_web": false,
                     "is_app": true,
                     "is_card": false,
-                    "image_path":"../static/img/portfolio/portfolio-1.jpg",
+                    "images_path":[
+                        "../static/img/portfolio/portfolio-1.jpg",
+                        "../static/img/portfolio/portfolio-2.jpg",
+                        "../static/img/portfolio/portfolio-3.jpg"
+                    ],
                     "title": "App 1"
                 },
                 {
                     "is_web": true,
                     "is_app": false,
                     "is_card": false,
-                    "image_path": "../static/img/portfolio/portfolio-2.jpg",
+                    "images_path": [
+                        "../static/img/portfolio/portfolio-2.jpg",
+                        "../static/img/portfolio/portfolio-3.jpg",
+                        "../static/img/portfolio/portfolio-4.jpg"
+                    ],
                     "title": "Web 3"
                 },
                 {
                     "is_web": false,
                     "is_app": true,
                     "is_card": false,
-                    "image_path": "../static/img/portfolio/portfolio-3.jpg",
+                    "images_path": [
+                        "../static/img/portfolio/portfolio-3.jpg",
+                        "../static/img/portfolio/portfolio-4.jpg",
+                        "../static/img/portfolio/portfolio-5.jpg"
+                    ],
                     "title": "App 2"
                 },
                 {
                     "is_web": false,
                     "is_app": false,
                     "is_card": true,
-                    "image_path": "../static/img/portfolio/portfolio-4.jpg",
+                    "images_path": [
+                        "../static/img/portfolio/portfolio-4.jpg",
+                        "../static/img/portfolio/portfolio-5.jpg",
+                        "../static/img/portfolio/portfolio-6.jpg"
+                    ],
                     "title": "Card 2"
                 },
                 {
                     "is_web": true,
                     "is_app": false,
                     "is_card": false,
-                    "image_path": "../static/img/portfolio/portfolio-5.jpg",
+                    "images_path": [
+                        "../static/img/portfolio/portfolio-5.jpg",
+                        "../static/img/portfolio/portfolio-6.jpg",
+                        "../static/img/portfolio/portfolio-7.jpg"
+                    ],
                     "title": "Web 2"
                 },
                 {
                     "is_web": false,
                     "is_app": true,
                     "is_card": false,
-                    "image_path": "../static/img/portfolio/portfolio-6.jpg",
+                    "images_path": [
+                        "../static/img/portfolio/portfolio-6.jpg",
+                        "../static/img/portfolio/portfolio-7.jpg",
+                        "../static/img/portfolio/portfolio-8.jpg"
+                    ],
                     "title": "App 3"
                 },
                 {
                     "is_web": false,
                     "is_app": false,
                     "is_card": true,
-                    "image_path": "../static/img/portfolio/portfolio-7.jpg",
+                    "images_path": [
+                        "../static/img/portfolio/portfolio-7.jpg",
+                        "../static/img/portfolio/portfolio-8.jpg",
+                        "../static/img/portfolio/portfolio-9.jpg"
+                    ],
                     "title": "Card 1"
                 },
                 {
                     "is_web": false,
                     "is_app": false,
                     "is_card": true,
-                    "image_path": "../static/img/portfolio/portfolio-8.jpg",
+                    "images_path": [
+                        "../static/img/portfolio/portfolio-8.jpg",
+                        "../static/img/portfolio/portfolio-9.jpg",
+                        "../static/img/portfolio/portfolio-1.jpg"
+                    ],
                     "title": "Card 3"
                 },
                 {
                     "is_web": true,
                     "is_app": false,
                     "is_card": false,
-                    "image_path": "../static/img/portfolio/portfolio-9.jpg",
+                    "images_path": [
+                        "../static/img/portfolio/portfolio-9.jpg",
+                        "../static/img/portfolio/portfolio-1.jpg",
+                        "../static/img/portfolio/portfolio-2.jpg"
+                    ],
                     "title": "Web 3"
                 }
             ]

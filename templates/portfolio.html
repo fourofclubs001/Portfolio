@@ -5,9 +5,9 @@
            {% if info['is_web'] %} filter-web {% endif %}
            {% if info['is_card'] %} filter-card {% endif %}">
   <div class="portfolio-wrap">
-    <img src="{{ info['image_path'] }}" class="img-fluid" alt="">
+    <img src="{{ info['images_path'][0] }}" class="img-fluid" alt="">
     <div class="portfolio-links">
-      <a href="{{ info['image_path'] }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="{{ info['title'] }}"><i class="bx bx-plus"></i></a>
+      <a href="{{ info['images_path'][0] }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="{{ info['title'] }}"><i class="bx bx-plus"></i></a>
       <a href="{{ url_for('portfolio_details', item_idx = idx) }}" title="More Details"><i class="bx bx-link"></i></a>
     </div>
   </div>
