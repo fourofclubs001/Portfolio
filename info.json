@@ -230,9 +230,9 @@
                         "../static/img/portfolio/portfolio-2.jpg",
                         "../static/img/portfolio/portfolio-3.jpg"
                     ],
-                    "is_web": false,
-                    "is_app": true,
-                    "is_card": false
+                    "is_SC": false,
+                    "is_DEV": true,
+                    "is_AI": false
                 },
                 {
                     "title": "Web 3",
@@ -247,9 +247,9 @@
                         "../static/img/portfolio/portfolio-3.jpg",
                         "../static/img/portfolio/portfolio-4.jpg"
                     ],
-                    "is_web": true,
-                    "is_app": false,
-                    "is_card": false
+                    "is_SC": true,
+                    "is_DEV": false,
+                    "is_AI": false
                 },
                 {
                     "title": "App 2",
@@ -264,9 +264,9 @@
                         "../static/img/portfolio/portfolio-4.jpg",
                         "../static/img/portfolio/portfolio-5.jpg"
                     ],
-                    "is_web": false,
-                    "is_app": true,
-                    "is_card": false
+                    "is_SC": false,
+                    "is_DEV": true,
+                    "is_AI": false
                 },
                 {
                     "title": "Card 2",
@@ -281,9 +281,9 @@
                         "../static/img/portfolio/portfolio-5.jpg",
                         "../static/img/portfolio/portfolio-6.jpg"
                     ],
-                    "is_web": false,
-                    "is_app": false,
-                    "is_card": true
+                    "is_SC": false,
+                    "is_DEV": false,
+                    "is_AI": true
                 },
                 {
                     "title": "Web 2",
@@ -298,9 +298,9 @@
                         "../static/img/portfolio/portfolio-6.jpg",
                         "../static/img/portfolio/portfolio-7.jpg"
                     ],
-                    "is_web": true,
-                    "is_app": false,
-                    "is_card": false
+                    "is_SC": true,
+                    "is_DEV": false,
+                    "is_AI": false
                 },
                 {
                     "title": "App 3",
@@ -315,9 +315,9 @@
                         "../static/img/portfolio/portfolio-7.jpg",
                         "../static/img/portfolio/portfolio-8.jpg"
                     ],
-                    "is_web": false,
-                    "is_app": true,
-                    "is_card": false
+                    "is_SC": false,
+                    "is_DEV": true,
+                    "is_AI": false
                 },
                 {
                     "title": "Card 1",
@@ -332,9 +332,9 @@
                         "../static/img/portfolio/portfolio-8.jpg",
                         "../static/img/portfolio/portfolio-9.jpg"
                     ],
-                    "is_web": false,
-                    "is_app": false,
-                    "is_card": true
+                    "is_SC": false,
+                    "is_DEV": false,
+                    "is_AI": true
                 },
                 {
                     "title": "Card 3",
@@ -349,9 +349,9 @@
                         "../static/img/portfolio/portfolio-9.jpg",
                         "../static/img/portfolio/portfolio-1.jpg"
                     ],
-                    "is_web": false,
-                    "is_app": false,
-                    "is_card": true
+                    "is_SC": false,
+                    "is_DEV": false,
+                    "is_AI": true
                 },
                 {
                     "title": "Web 3",
@@ -366,9 +366,9 @@
                         "../static/img/portfolio/portfolio-1.jpg",
                         "../static/img/portfolio/portfolio-2.jpg"
                     ],
-                    "is_web": true,
-                    "is_app": false,
-                    "is_card": false
+                    "is_SC": true,
+                    "is_DEV": false,
+                    "is_AI": false
                 }
             ]
         },
